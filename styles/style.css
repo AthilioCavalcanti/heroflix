@@ -1,0 +1,60 @@
+:root{
+    --cor1:#e20025;
+    --cor2:#0060aa;
+    --cor3:#ffed10;
+    --cor4:#010101;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: var(--cor1);
+}
+
+a.item-menu{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+a.item-menu:hover{
+    color: white;
+}
+
+.banner-principal{
+    height: 400px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8)45%, rgba(0, 0, 0, 0.01)), url(../images/capa-boku-no-hero-academia-2016.jpg);
+    background-position-y: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-principal .titulo{
+    font-size: 1.5rem;
+}
+
+.banner-principal .descricao{
+    margin-top: 15px;
+}
