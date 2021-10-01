@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
 :root{
     --cor1:#e20025;
     --cor2:#0060aa;
@@ -26,6 +28,7 @@ body{
 }
 
 .logo{
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.3rem;
     font-weight: bolder;
     color: var(--cor1);
