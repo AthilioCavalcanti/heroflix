@@ -29,6 +29,16 @@ const marvelSpiderMan = new Titulo(
     'images/poster-homem-aranha-da-marvel.jpg'
 )
 
+const onePunchMan = new Titulo(
+    'One Punch Man',
+    2015,
+    'Tudo sobre um jovem chamado Saitama parece mediano, sua expressão sem vida, sua cabeça calva e físico inexpressivo. No entanto, este homem de aparência comum não tem um problema comum... Ele é um super-herói que está à procura de adversários difíceis! O problema é que toda vez que ele encontra um candidato promissor ele o derrota com um soco. Saitama encontrará um vilão forte o suficiente para desafiá-lo? Siga Saitama através de suas aventuras hilariantes enquanto ele procura por novos bandidos para desafiar!',
+    'Action & Adventure, Animação, Comédia',
+    '24min',
+    'images/capa-one-punch-man-2015.jpg',
+    'images/poster-one-punch-man.jpg'
+)
+
 // Séries live action
 const loki = new Titulo(
     'Loki',
@@ -51,6 +61,16 @@ const theFlash = new Titulo(
 )
 
 // Filmes animados
+const bnha2Herois = new Titulo(
+    'Boku no Hero Academia: O filme - 2 Heróis',
+    2018,
+    'Deku e All Might são convidados para a I-Expo, a maior exposição de invenções e novidades para heróis superpoderosos, reunindo patrocinadores e profissionais do mundo todo. Quando a exposição é invadida por vilões, burlando todo o poderoso sistema de segurança do local, a sociedade de heróis fica gravemente ameaçada. Só uma pessoa é capaz de salvar a todos e restaurar a paz: All Might.',
+    'Animação, Ação, Aventura, Fantasia',
+    '1h36min',
+    'images/capa-boku-no-hero-academia-o-filme-dois-herois-2018.jpg',
+    'images/poster-boku-no-hero-academia-o-filme-dois-herois.jpg'
+)
+
 const homemAranhaNoAranhaverso = new Titulo(
     'Homem-Aranha: No Aranhaverso',
     2018,
