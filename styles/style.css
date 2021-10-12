@@ -44,8 +44,15 @@ a.item-menu:hover{
     color: white;
 }
 
-.banner-principal{
+.altura-banner-400{
     height: 400px;
+}
+
+.altura-banner-500{
+    height: 500px;
+}
+
+.banner-principal{
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.92)50%, rgba(0, 0, 0, 0.001)), url(../images/capa-boku-no-hero-academia-2016.jpg);
     background-size: cover;
     display: flex;
