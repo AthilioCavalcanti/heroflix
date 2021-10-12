@@ -9,5 +9,16 @@ function trocaBanner(titulo){
     tituloMovie.innerHTML = `<h2>${titulo.nome} (${titulo.ano})</h2>`
     descricaoMovie.innerHTML = `<p>${titulo.descricao}</p>`
 
-    window.scrollTo(0, 0)
+    //window.scrollTo(0, 0)
+}
+
+function criarPopup(modalID){
+    const modal = document.getElementById(modalID)
+
+    modal.classList.add('mostrar')
+    modal.addEventListener('click', function (e){
+        if(e.target.id == modalID || e.target.className == 'btn-fechar-popup') {
+            modal.classList.remove('mostrar')
+        }
+    })
 }

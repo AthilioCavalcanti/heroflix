@@ -44,15 +44,8 @@ a.item-menu:hover{
     color: white;
 }
 
-.altura-banner-400{
-    height: 400px;
-}
-
-.altura-banner-500{
-    height: 500px;
-}
-
 .banner-principal{
+    height: 500px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.92)50%, rgba(0, 0, 0, 0.001)), url(../images/capa-boku-no-hero-academia-2016.jpg);
     background-size: cover;
     display: flex;
@@ -126,4 +119,58 @@ footer{
 
 footer .texto-rodape{
     text-align: center;
+}
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar{
+    display: flex;
+}
+
+.modal{
+    width: 400px;
+    height: 400px;
+    background-color: var(--cor1);
+    color: white;
+    border: 5px solid white;
+    position: relative;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.btn-fechar-popup{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: var(--cor4);
+    color: white;
+    cursor: pointer;
 }
