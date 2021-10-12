@@ -12,6 +12,10 @@ function trocaBanner(titulo){
     //window.scrollTo(0, 0)
 }
 
+function openLink(){
+    window.open('https://www.youtube.com/watch?v=L1FdEBTJXus')
+}
+
 function criarPopup(modalID){
     const modal = document.getElementById(modalID)
 

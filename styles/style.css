@@ -66,7 +66,26 @@ a.item-menu:hover{
     margin-top: 40px;
 }
 
-.botoes .btn{
+.botoes{
+    display: flex;
+}
+
+.botoes .logo-streamer-container{
+    margin-left: 30px;
+}
+
+.botoes .logo-streamer{
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.logo-streamer img{
+    margin: 15px;
+    width: 70%;
+}
+
+.btn{
+    height: 45px;
     background-color: var(--cor1);
     color: white;
     font-size: 0.9rem;
@@ -75,6 +94,8 @@ a.item-menu:hover{
     margin-right: 15px;
     transition: .3s ease all;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn i{
@@ -139,9 +160,9 @@ footer .texto-rodape{
 }
 
 .modal{
-    width: 400px;
-    height: 400px;
-    background-color: var(--cor1);
+    width: 80%;
+    height: 90%;
+    background-color: var(--cor4);
     color: white;
     border: 5px solid white;
     position: relative;
@@ -173,4 +194,65 @@ footer .texto-rodape{
     background-color: var(--cor4);
     color: white;
     cursor: pointer;
+}
+
+.modal .container-info-titulo{
+    display: flex;
+}
+
+.container-info-titulo .destaque{
+    min-width: 25vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-titulo .destaque .envelope{
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque .envelope .btn{
+    width: 100%;
+}
+
+.logo-streamer.centralizado{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.logo-streamer.centralizado img{
+    margin: 5px;
+}
+
+.container-info-titulo .mais-detalhes{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+}
+
+.mais-detalhes h2{
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+.mais-detalhes .infos{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.infos .duracao{
+    margin-right: 10px;
+}
+
+.infos .ano-lancamento, .infos .idade-recomendada{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mais-detalhes p{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
