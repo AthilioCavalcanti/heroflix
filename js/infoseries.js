@@ -4,9 +4,13 @@ const whatIf = new Titulo(
     2021,
     'Baseada nos populares quadrinhos homônimos, a produção explorará histórias hipotéticas que poderiam ter mudado completamente o rumo do universo cinematográfico da editora.',
     'Animação, Action & Adventure, Sci-Fi & Fantasy',
+    '14 anos',
+    'Bryan Andrews e Ryan Little',
+    'https://www.disneyplus.com/pt-br',
+    'https://www.disneyplus.com/pt-br/series/what-if/7672ZVj1ZxU9',
     '34min',
-    'images/capa-what-if-2021.jpg',
-    'images/poster-what-if.jpg'
+    'images/poster-what-if.jpg',
+    'images/logo-disney-plus.png'
 )
 
 const invencivel = new Titulo(
