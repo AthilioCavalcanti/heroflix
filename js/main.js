@@ -22,8 +22,7 @@ function editarPopup(titulo){
     const idadeRecomendada = document.querySelector('div.infos div.idade-recomendada')
     const sinopse = document.querySelector('p.sinopse')
     const genero = document.querySelector('p.genero')
-    const direcao = document.querySelector('p.direcao')
-
+    
     imgPoster.setAttribute('src', titulo.urlPoster)
     btnAssistir.setAttribute('href', titulo.linkAssistir)
     logoStreaming.setAttribute('src', titulo.urlLogoStreaming)
@@ -34,7 +33,6 @@ function editarPopup(titulo){
     idadeRecomendada.innerHTML = `classificação: ${titulo.classificacao}`
     sinopse.innerHTML = `<strong>Sinopse:</strong> ${titulo.descricao}`
     genero.innerHTML = `<strong>Gênero:</strong> ${titulo.generos}`
-    direcao.innerHTML = `<strong>Direção:</strong> ${titulo.direcao}`
 
     criarPopup('modal-titulo')
 }
