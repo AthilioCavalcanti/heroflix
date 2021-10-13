@@ -1,15 +1,19 @@
-let meuCSS = `background: linear-gradient(90deg, rgba(0, 0, 0, 0.92)50%, rgba(0, 0, 0, 0.001))`
+function editarPopup(){
+    const imgPoster = document.querySelector('div.poster img')
+    const btnAssistir = document.querySelector('div.envelope .btn')
+    const logoStreaming = document.querySelector('div.logo-streaming img')
+    const linkStreaming = document.querySelector('div.logo-streaming a')
+    const nome = document.querySelector('div.envelope h2')
+    const duracao = document.querySelector('div.infos div.duracao')
+    const ano = document.querySelector('div.infos div.ano-lancamento')
+    const idadeRecomendada = document.querySelector('div.infos div.idade-recomendada')
+    const sinopse = document.querySelector('p.sinopse')
+    const genero = document.querySelector('p.genero')
+    const direcao = document.querySelector('p.direcao')
 
-function trocaBanner(titulo){
-    const movie = document.querySelector('div.banner-principal')
-    const tituloMovie = document.querySelector('div.titulo')
-    const descricaoMovie = document.querySelector('div.descricao')
-
-    movie.style.cssText = `${meuCSS}, url(${titulo.urlCapa})`
-    tituloMovie.innerHTML = `<h2>${titulo.nome} (${titulo.ano})</h2>`
-    descricaoMovie.innerHTML = `<p>${titulo.descricao}</p>`
-
-    //window.scrollTo(0, 0)
+    imgPoster.setAttribute('src', 'images/poster-loki.jpg')
+    nome.innerHTML = `Loki`
+    sinopse.innerHTML = `<strong>Sinopse:<strong/> `
 }
 
 function openLink(){

@@ -70,16 +70,16 @@ a.item-menu:hover{
     display: flex;
 }
 
-.botoes .logo-streamer-container{
+.botoes .logo-streaming-container{
     margin-left: 30px;
 }
 
-.botoes .logo-streamer{
+.botoes .logo-streaming{
     display: flex;
     font-size: 0.9rem;
 }
 
-.logo-streamer img{
+.logo-streaming img{
     margin: 15px;
     width: 70%;
 }
@@ -215,15 +215,16 @@ footer .texto-rodape{
 
 .destaque .envelope .btn{
     width: 100%;
+    margin: 5px 0px;
 }
 
-.logo-streamer.centralizado{
+.logo-streaming.centralizado{
     text-align: center;
     font-size: 0.8rem;
     margin-top: 20px;
 }
 
-.logo-streamer.centralizado img{
+.logo-streaming.centralizado img{
     margin: 5px;
 }
 
