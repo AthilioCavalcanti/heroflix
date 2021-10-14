@@ -30,7 +30,7 @@ function editarPopup(titulo){
     nome.innerHTML = titulo.nome
     duracao.innerHTML = titulo.duracao
     ano.innerHTML = titulo.ano
-    idadeRecomendada.innerHTML = `classificação: ${titulo.classificacao}`
+    idadeRecomendada.innerHTML = titulo.classificacao
     sinopse.innerHTML = `<strong>Sinopse:</strong> ${titulo.descricao}`
     genero.innerHTML = `<strong>Gênero:</strong> ${titulo.generos}`
 
