@@ -202,7 +202,7 @@ footer .texto-rodape{
 
 .container-info-titulo .destaque{
     min-width: 25vw;
-    height: 90vh;
+    height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +213,12 @@ footer .texto-rodape{
     flex-direction: column;
 }
 
-.destaque .envelope .btn{
+.envelope .btns-streaming{
+    display: flex;
+    flex-direction: column;
+}
+
+.envelope .btns-streaming .btn{
     width: 100%;
     margin: 5px 0px;
 }
@@ -260,4 +265,87 @@ footer .texto-rodape{
 .mais-detalhes p{
     font-size: 1.1rem;
     margin-bottom: 15px;
+}
+
+/*Celulares no geral*/
+@media screen and (max-width: 599px){
+
+}
+
+/*Tablet na vertical*/
+@media screen and (min-width:600px){
+
+}
+
+/*Tablet na horizontal*/
+@media screen and (min-width: 600px) and (max-width: 1199px){
+    .container-info-titulo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-info-titulo .destaque{
+        height: 520px;
+    }
+
+    .container-info-titulo .destaque .envelope{
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .destaque .envelope .poster{
+        flex-grow: 1;
+        margin-right: 20px;
+    }
+
+    .destaque .envelope .btns-streaming{
+        flex-grow: 2;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .envelope .btns-streaming .btn{
+        width: 302px;
+        height: 55px;
+        font-size: 1.5rem;
+    }
+
+    .envelope .btns-streaming .logo-streaming{
+        margin-bottom: 25px;
+    }
+
+    .envelope .btns-streaming .logo-streaming p{
+        font-size: 1.5rem;
+    }
+
+    .destaque .envelope .poster img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .mais-detalhes {
+        margin: 0px;
+    }
+
+    .mais-detalhes .envelope h2{
+        font-size: 5rem;
+    }
+
+    .mais-detalhes .envelope .infos{
+        font-size: 1.1rem;
+    }
+
+    .mais-detalhes .envelope p{
+        font-size: 1.5rem;
+    }
+}
+
+/*Desktop - pode ignorar que o código em si já tá pra esse formato*/
+@media screen and (min-width: 1200px) {
+    
 }
