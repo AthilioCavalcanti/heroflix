@@ -32,6 +32,10 @@ body{
     color: var(--cor1);
 }
 
+.menu .btn-menu{
+    display: none;
+}
+
 a.item-menu{
     text-decoration: none;
     color: #aaa;
@@ -124,9 +128,7 @@ a.item-menu:hover{
 }
 
 .box-filme{
-    width: 100%;
     height: 100%;
-    display: block;
 }
 
 footer{

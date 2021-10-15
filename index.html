@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/responsive.css">
 
     <!--owl css-->
     <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+
+    <!--responsive-->
+    <link rel="stylesheet" href="styles/responsive.css">
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -22,9 +24,16 @@
                 HEROFLIX
             </div>
             <nav class="menu">
-                <a class="item-menu" href="#">Inicio</a>
-                <a class="item-menu" href="#">Filmes</a>
-                <a class="item-menu" href="#">Séries</a>
+                <div class="btn-menu">
+                    <a onclick="exibirMenu()">
+                        <img src="images/icone-menu-phone.png" alt="Icone menu">
+                    </a>
+                </div>
+                <div class="itens-menu">
+                    <a class="item-menu" href="#">Inicio</a>
+                    <a class="item-menu" href="#">Filmes</a>
+                    <a class="item-menu" href="#">Séries</a>
+                </div>
             </nav>
         </div>
     </header>

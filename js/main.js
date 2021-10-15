@@ -37,6 +37,8 @@ function editarPopup(titulo){
     criarPopup('modal-titulo')
 }
 
-function openLink(){
-    window.open('https://www.youtube.com/watch?v=L1FdEBTJXus')
+function exibirMenu(){
+    console.log("pegou!")
+    const menu = document.querySelector('nav.menu div.itens-menu')
+    menu.classList.toggle('exibir')
 }
